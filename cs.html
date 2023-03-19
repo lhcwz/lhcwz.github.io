@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 设置鼠标指针样式 */
+        .pointer {
+          cursor: pointer;
+        }
+        .wait {
+          cursor: wait;
+        }
+        .custom {
+          cursor: url(cursor.png), auto;
+        }
+      
+        /* 设置鼠标点击效果 */
+        a {
+          color: blue;
+          text-decoration: none;
+        }
+        a:hover {
+          color: red;
+          text-decoration: underline;
+        }
+        a:active {
+          color: green;
+          text-decoration: line-through;
+        }
+      </style>
+</head>
+<body>
+    <div class="pointer">这是一个指针样式</div>
+<div class="wait">这是一个等待样式</div>
+<div class="custom">这是一个自定义样式</div>
+
+<a href="#">这是一个链接</a>
+</body>
+</html>

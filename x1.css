@@ -1,0 +1,154 @@
+body {
+    background-repeat: no-repeat;
+    /* 这个属性可以使图片不重复平铺 */
+    background-size: cover;
+    /* 这个属性可以使图片不重复平铺 */
+    background-image: url("./images/网页背景.PNG");
+    /* 这里可以改成你想要的图片地址 */
+}
+
+/* 设置div宽度为100% */
+.box {
+    width: 100%;
+
+}
+
+
+/* 设置横向的导航条 */
+nav ul {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    opacity: 0.8;
+    /* 这个属性可以设置元素的不透明度，1表示完全不透明，0表示完全透明，中间值表示部分透明 */
+    display: flex;
+    /* 这个属性可以使元素成为弹性盒子容器，从而实现水平或垂直对齐等效果 */
+    justify-content: center;
+    /* 这个属性可以设置弹性盒子容器内的项目在主轴上的对齐方式，center表示居中对齐 */
+    border-bottom: 1px solid black;
+}
+
+nav li {
+    float: left;
+    width: 16.66%;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.tx {
+    margin-left: 300px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+p {
+    margin-left: 20px;
+}
+
+.avatar {
+    box-shadow: 10px 8px 8px rgb(37, 1, 1);
+    border-radius: 50%;
+    /* 设置动画的名称为rotate，持续时间为5秒，无限次重复 */
+  animation: rotate 5s infinite;
+  /* 设置动画的速度曲线为linear，即匀速运动 */
+  animation-timing-function: linear;
+}
+/* 定义一个名为rotate的关键帧动画 */
+@keyframes rotate {
+    /* 动画开始时，头像旋转角度为0度 */
+    from {
+      transform: rotate(0deg);
+    }
+    /* 动画结束时，头像旋转角度为360度 */
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.qq img {
+    width: 50px;
+    height: 50px;
+}
+
+.cen_text {
+    color: white;
+    /* 设置字体颜色为白色 */
+    text-align: center;
+    padding-left: 60px;
+}
+
+h2 {
+    width: 600px;
+    /* 设置宽度为800 */
+    border-bottom: 1px solid white;
+    /* 设置下边框线为白色 */
+    border-top: none;
+    /* 去掉上边框线 */
+    border-left: none;
+    /* 去掉左边框线 */
+    border-right: none;
+    /* 去掉右边框线 */
+    line-height: 80px;
+    /* 设置行高为80 */
+}
+.cen_text h3{
+    padding-top: 20px;
+}
+.qq{
+    text-decoration: none;
+    color: white;
+}
+a {
+/* 去除下划线 */
+text-decoration: none;
+/* 设置字体颜色为白色 */
+color: white;
+}
+
+a:hover {
+/* 鼠标指向时显示一个🔍 */
+cursor: pointer;
+}
+.yybfq{
+position: absolute;
+bottom: 570px;
+left: 970px;
+
+}

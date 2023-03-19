@@ -1,0 +1,117 @@
+body {
+    background-repeat: no-repeat;
+    /* 这个属性可以使图片不重复平铺 */
+    background-size: cover;
+    /* 这个属性可以使图片不重复平铺 */
+    background-image: url("./images/网页背景.PNG");
+    /* 这里可以改成你想要的图片地址 */
+}
+
+/* 设置div宽度为100% */
+.box {
+    width: 100%;
+
+}
+
+
+/* 设置横向的导航条 */
+nav ul {
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+    opacity: 0.8;
+    /* 这个属性可以设置元素的不透明度，1表示完全不透明，0表示完全透明，中间值表示部分透明 */
+    display: flex;
+    /* 这个属性可以使元素成为弹性盒子容器，从而实现水平或垂直对齐等效果 */
+    justify-content: center;
+    /* 这个属性可以设置弹性盒子容器内的项目在主轴上的对齐方式，center表示居中对齐 */
+    border-bottom: 1px solid black;
+}
+
+nav li {
+    float: left;
+    width: 16.66%;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+.lyb {
+    width: 800px;
+    margin: 0 auto;
+   
+    padding: 20px;
+    border-style: dashed;
+  margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 8px rgb(37, 1, 1);
+    transition: border-color 0.6s linear;
+  }
+  .lyb:hover {
+    border-color: #FC5185;
+    border: 3px solid ;
+
+  }
+form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+    align-self: center;
+  }
+  
+  /* 设置留言列表的样式 */
+  ul {
+    list-style-type: none;
+  }
+  
+  .lyb li {
+    margin-bottom: 20px;
+  }
+  
+  li .avatar {
+      width:50px; 
+      height:auto; 
+      border-radius:50%;
+      float:left; 
+      margin-right:10px; 
+  }
+  li .name{
+      font-weight:bold; 
+      font-size:16px; 
+  }
+  li .time{
+      color:#999; 
+      font-size:12px; 
+  }
+  li .content{
+      clear:both; 
+      
+  }
+  .content1{
+    opacity: 0.3;
+  }
+
+
+
